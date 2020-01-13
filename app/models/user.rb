@@ -11,6 +11,6 @@ class User
   def self.find_by_id(t)
     self.where("id = ?",t)
   end
-  
+
 
 end
