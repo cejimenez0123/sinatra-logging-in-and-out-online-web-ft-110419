@@ -1,4 +1,9 @@
 class User
-  attr_accessor :name, :email, :password
+  attr_accessor :username, :password, :balance
+  def initialize(hash)
+    @username = hash[:username]
+    @password = hash[:password]
+    @balance = hash[:balance]
+  end
 
 end
