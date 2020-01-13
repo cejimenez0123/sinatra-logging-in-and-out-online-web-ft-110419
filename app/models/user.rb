@@ -8,5 +8,9 @@ class User
   def self.create(hash)
     self.new(hash)
   end
+  def self.find_by_id(t)
+    self.where("id = ?",t)
+  end
+  
 
 end
