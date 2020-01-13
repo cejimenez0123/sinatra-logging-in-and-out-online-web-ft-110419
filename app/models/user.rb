@@ -5,5 +5,8 @@ class User
     @password = hash[:password]
     @balance = hash[:balance]
   end
+    def self.create(hash)
+      self.new(hash)
+    end
 
 end
