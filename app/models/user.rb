@@ -8,7 +8,7 @@ class User
   def self.create(hash)
     self.new(hash)
   end
-  
+
 
 
 end
